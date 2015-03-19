@@ -26,11 +26,12 @@
 
 @import "compass";
 @import "compass/reset";
+@import "compass/utilities/general/clearfix";
 
 @import "../bower_components/gumby/sass/functions/all";
 
 @import "../bower_components/gumby/sass/base";
-@import "../bower_components/gumby/sass/fonts";
+@import "fonts";
 @import "../bower_components/gumby/sass/typography";
 @import "../bower_components/gumby/sass/grid";
 @import "../bower_components/gumby/sass/ui/all";
@@ -38,3 +39,5 @@
 
 @import "custom";
 @import "-partials/nav";
+@import "pages/home";
+@import "components/instagram-wall";
