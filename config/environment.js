@@ -2,6 +2,10 @@
 
 module.exports = function(environment) {
   var ENV = {
+    contentSecurityPolicy: {
+      'font-src': "'self' fonts.gstatic.com",
+      'style-src': "'self' fonts.googleapis.com"
+    },
     modulePrefix: 'baconbots',
     environment: environment,
     baseURL: '/',
