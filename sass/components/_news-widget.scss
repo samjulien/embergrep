@@ -1,16 +1,22 @@
 .news-widget {
-	.news-item {
-		margin: 5px auto;
-		padding: 5px;
+    .news-item {
+        margin: 5px auto;
+        padding: 5px;
 
-		@include border-radius(4px);
-		background: rgba(255, 255, 255, 0.2);
-		color: $header-font-color;
+        @include border-radius(4px);
+        background: rgba(255, 255, 255, 0.2);
+        color: $header-font-color;
 
-		a {
-			color: #F3852E;
-			display: block;
-			text-align: right;
-		}
-	}
+        a {
+            color: #F3852E;
+            display: block;
+            text-align: right;
+        }
+
+        span.date {
+            color: darken($header-font-color, 10%);
+            font-size: ms(1);
+            float: right;
+        }
+    }
 }
