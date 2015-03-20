@@ -5,7 +5,7 @@ module.exports = function(environment) {
     contentSecurityPolicy: {
       'font-src': "'self' fonts.gstatic.com",
       'style-src': "'self' fonts.googleapis.com",
-      'img-src': "'self' *.cdninstagram.com",
+      'img-src': "'self' *.cdninstagram.com *.lorempixel.com",
       'script-src': "'self' *.chrisvalleskey.com"
     },
     modulePrefix: 'baconbots',
